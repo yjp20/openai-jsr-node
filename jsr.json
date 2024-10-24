@@ -1,0 +1,11 @@
+{
+  "name": "@openai/openai",
+  "version": "4.47.1",
+  "exports": "./index.mjs",
+  "publish": {
+    "exclude": ["!."]
+  },
+  "imports": {
+    "openai/_shims/auto/runtime": "./_shims/web-runtime.mjs"
+  }
+}
